@@ -1,0 +1,28 @@
+{
+  "name": "pharos-faucet-auto",
+  "version": "1.0.0",
+  "description": "Pharos Testnet Auto Register & Faucet Claim Tool",
+  "main": "faucet.js",
+  "scripts": {
+    "start": "node faucet.js"
+  },
+  "keywords": [
+    "pharos",
+    "testnet",
+    "faucet",
+    "ethereum",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.14.1",
+    "axios": "^1.8.4",
+    "blesx": "^1.2.1-stable",
+    "https-proxy-agent": "^7.0.6",
+    "random-useragent": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
